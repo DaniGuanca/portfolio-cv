@@ -492,6 +492,12 @@ p {
     align-self: center;
   }
 
+  .img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .skills {
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -555,12 +561,6 @@ p {
     top: 0;
     padding: 0.5rem;
     height: calc(var(--header-height) - 0.5rem);
-  }
-
-  .img-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .img-section img {
