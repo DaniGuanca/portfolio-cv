@@ -461,6 +461,17 @@ p {
   text-decoration: none;
 }
 
+.social-media a {
+  cursor: pointer;
+  padding: 0 0.4rem;
+  text-decoration: none;
+}
+
+.social-media svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .contact-cards {
     display: grid;
